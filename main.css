@@ -1,10 +1,3 @@
-body {
-    background-image: url("https://k.sinaimg.cn/n/sinakd20120/29/w1080h1349/20210822/5e0b-4c50dfdc6af144d2f7e75bac5af0194f.jpg/w700d1q75cms.jpg");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: cover;
-  }
 .h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6{margin-bottom:.5rem;font-weight:500;line-height:1.2}.h1,h1{font-size:2.5rem}.h2,h2{font-size:2rem}.h3,h3{font-size:1.75rem}.h4,h4{font-size:1.5rem}.h5,h5{font-size:1.25rem}.h6,h6{font-size:1rem}.lead{font-size:1.25rem;font-weight:300}
 a {
     color: #007bff;
@@ -163,7 +156,7 @@ body {
     line-height: 1.5;
     color: #212529;
     text-align: left;
-    background-color: #fff
+    background-color: black;
 }
 :root {
     --blue: #007bff;
@@ -204,8 +197,6 @@ html {
 *,::after,::before {
     box-sizing: border-box
 }
-a:hover{text-decoration:none;font-weight:bold}
-a.icp{font-size:12px;color:#bbb;text-align:center}
 .mylist li.col-3 img{display:block;width:45px;height:45px;padding:8px;background:#fff;border:1px solid #eee;border-radius:10px;margin:0 auto}
 svg.icon{width:14px;height:14px;margin:0 5px 0 8px;vertical-align:-0.15em;fill:currentColor;overflow:hidden}
 .mylist{list-style:none;padding:10px 20px;position:relative;z-index:1000;margin:20px 5;border-radius:15px;background:#ffffffe6;/*backdrop-filter: blur(10px);*/box-shadow:0 0.5rem 0.625rem #d4d4d44d}
@@ -219,4 +210,4 @@ svg.icon{width:14px;height:14px;margin:0 5px 0 8px;vertical-align:-0.15em;fill:c
 .mylist li.col-3{margin:5px 0 5px}
 .mylist li.col-3 svg{width:30px;height:30px;padding:5px;border-radius:5px}
 .mylist li.col-3 span{font-size:12px}
-.mylist li.col-3 img {display: block; width: 36px; height: 36px; padding: 1px; background: #fff; border: 5px solid #eee; border-radius: 10px; margin: 0 auto;}
+.mylist li.col-3 img {display: block; width: 36px; height: 36px; padding: 1px; background: #fff; border: 1px solid #eee; border-radius: 6px; margin: 0 auto;}
