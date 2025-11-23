@@ -1,4 +1,1 @@
-<svg width="350" height="350" xmlns="http://www.w3.org/2000/svg"><g>
-<rect height="100%" width="100%" y="0" x="0" fill="#7f003f"/>
-<text text-anchor="middle" dominant-baseline="middle" font-weight="bold" font-size="220" y="55%" x="50%" fill="#000000">PS</text>
-</g></svg>
+<svg width="350" height="350" xmlns="http://www.w3.org/2000/svg"><g><rect height="100%" width="100%" y="0" x="0" fill="#B00357"/><circle cx="50%" cy="50%" r="140" fill="#B00357"  stroke="#E1035F" stroke-width="30"/><text text-anchor="middle" dominant-baseline="middle" font-size="170" y="55%" x="50%" fill="#000000">PS</text></g></svg>
