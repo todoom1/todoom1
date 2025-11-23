@@ -63,10 +63,11 @@ html {
     box-sizing: border-box
 }
 .mylist li.col-3 img{display:block;width:50px;height:50px;padding:0px;background:#fff;border-radius:12px;margin:0 auto}
-.mylist{list-style:none;padding:10px 20px;position:relative;z-index:1000;margin:5px 5px;border-radius:15px;background:#ffffffe6;border-radius:8px;/*backdrop-filter: blur(10px);*/box-shadow:0 0.5rem 0.625rem #d4d4d44d}
+.mylist{list-style:none;padding:10px 20px;position:relative;z-index:1000;margin:5px 5px;border-radius:20px;background:#fffffff6;border-radius:8px;/*backdrop-filter: blur(10px);*/box-shadow:0 0.5rem 0.625rem #d4d4d44d}
 .mylist li.col-3{width:100px;transition:0.3s all linear;font-size:14px;overflow:hidden;padding:5px 0px;border-radius:5px;margin:5px 0 5px}
 .mylist li.col-3 svg{display:block;width:45px;height:45px;padding:1px;background:#fff;border-radius:5px;margin:0 auto}
 .mylist li.col-3:hover{background:#eee}
 .mylist li.col-3 span{width:100%;height:26px;line-height:26px;text-align:center;font-size:13px;word-break:break-all;display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden}
 .mylist li a{color:#555;display:block}
+
 .mylist li.title{width:100%;min-width:auto;margin:0;height:35px;font-size:16px;line-height:33px;padding:0 20px 0 10px;/*border-bottom:1px solid #eee;*/margin-bottom:10px}
