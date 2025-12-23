@@ -64,6 +64,8 @@ document.getElementById("11").innerHTML="胜天国际";
 
 document.getElementById("58").innerHTML="28圈";
 
+document.getElementById("59").innerHTML="征途国际";
+
 document.getElementById("12").innerHTML="PG模拟器";
 
 document.getElementById("13").innerHTML="PP模拟器";
