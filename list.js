@@ -20,10 +20,10 @@ document.getElementById("cf").addEventListener("click", function() {
   window.location.href = "https://pkajim.hfjcl.com/app/register.php?site_id=1032&topId=747292";
 });
 document.getElementById("c7").addEventListener("click", function() {
-  window.location.href = "https://38.181.23.88:60005/#/link?allwin=5610187";
+  window.location.href = "https://103.39.18.211:7788/#/link?allwin=hzl3gjU7DNR82MQiVPcBPw%3D%3D";
 });
 document.getElementById("ng").addEventListener("click", function() {
-  window.location.href = "https://103.54.60.22:8866/#/link?allwin=16643601";
+  window.location.href = "https://23.235.160.179:7788/#/link?join=16643601";
 });
 document.getElementById("t1").addEventListener("click", function() {
   window.location.href = "https://lncqc.jgqvji.com/app/register.php?site_id=1051&topId=527419";
@@ -158,3 +158,4 @@ document.getElementById("56").innerHTML="如遇本站功能无法正常使用，
 
 
 document.getElementById("57").innerHTML="R888.LOL";
+
