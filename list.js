@@ -40,6 +40,9 @@ document.getElementById("st").addEventListener("click", function() {
 document.getElementById("xsd").addEventListener("click", function() {
   alert("新时代将于本月初上线！");
 });
+document.getElementById("xsd").addEventListener("click", function() {
+  window.location.href = "https://derear.fnbpsw.com/app/register.php?site_id=1059&topId=201796&selfPlanId=180448";
+});
 document.getElementById("jl").addEventListener("click", function() {
   alert("君临国际将于本月初上线！");
 });
@@ -76,5 +79,8 @@ document.getElementById("60").innerHTML="新时代";
 
 document.getElementById("61").innerHTML="君临国际";
 
+document.getElementById("62").innerHTML="新时代";
+
 document.getElementById("57").innerHTML="R888.LOL";
+
 
