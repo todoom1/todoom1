@@ -83,7 +83,7 @@ document.getElementById("xnb").addEventListener("click", function() {
   window.location.href = "./xnb.html";
 });
 document.getElementById("ggy").addEventListener("click", function() {
-  window.location.href = "https://gouvpn.cn/index.php#/register?code=ZVPKqeOI";
+  window.location.href = "https://maidongyun.com/index.php#/register?code=ZVPKqeOI";
 });
 document.getElementById("dkd").addEventListener("click", function() {
   window.location.href = "https://www.dukadi.xyz/#/register?code=2Rk31VCp";
@@ -178,7 +178,7 @@ document.getElementById("51").innerHTML="币安";
 
 document.getElementById("38").innerHTML="虚拟币入门";
 
-document.getElementById("39").innerHTML="狗狗云vpn";
+document.getElementById("39").innerHTML="脉动vpn(狗云)";
 
 document.getElementById("40").innerHTML="杜卡迪vpn";
 
@@ -211,3 +211,5 @@ document.getElementById("54").innerHTML="虚拟币";
 document.getElementById("55").innerHTML="其他分享&VPN-开VPN可进蓝名";
 
 document.getElementById("56").innerHTML="如遇本站功能无法正常使用，请点击下载注册狗狗云VPN，即可突破网络封锁正常使用";
+
+
