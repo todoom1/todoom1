@@ -1,82 +1,82 @@
+var xsdz = "aHR0cHM6Ly9kZXJlYXIuZm5icHN3LmNvbS9hcHAvcmVnaXN0ZXIucGhwP3NpdGVfaWQ9MTA1OSZ0b3BJZD0yMDE3OTYmc2VsZlBsYW5JZD0xODA0NDg=";
+var stz = "aHR0cHM6Ly90ZmFqbi5oY2p3ai5jb20vYXBwL3JlZ2lzdGVyLnBocD9zaXRlX2lkPTEwNTgmdG9wSWQ9MjY0NTkmc2VsZlBsYW5JZD0xMjY1MTQ=";
+var cfz = "aHR0cHM6Ly9wa2FqaW0uaGZqY2wuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD0xMDMyJnRvcElkPTc0NzI5Mg==";
+var ngz = "aHR0cHM6Ly8yMy4yMzUuMTYwLjE3OTo3Nzg4LyMvbGluaz9qb2luPTE2NjQzNjAx";
+var ffz = "aHR0cHM6Ly9sbmNxYy5qZ3F2amkuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD0xMDUwJnRvcElkPTQ2NjE3NjM0ODU1Mjc3MTcmc2VsZlBsYW5JZD0xNTM1MDIx";
+var yhz = "aHR0cHM6Ly9nZnZneC5qZ3F2amkuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD04MDAmcHQ9NTYyRTFCQkQtOTZEMC1CNkFFLTA0MUUtN0I4REY5QTkwODk4";
+var ztz = "aHR0cHM6Ly9wa2FqaW0uaGZqY2wuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD0xMDMxJnRvcElkPTM0MDMz";
+var dfz = "aHR0cHM6Ly9nZnZneC5qZ3F2amkuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD0xMDMwJnRvcElkPTI3ODg3OTQ=";
+var z8qz = "aHR0cHM6Ly8zOC4xODEuMjMuMzQ6NjAwMDYvIy9saW5rP2FsbHdpbj1BNHJ0eVc2OTExOTQ4";
+var wdz = "aHR0cHM6Ly9vbmtyY3kuaGVmYXNoaXAuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD0xMDIwJnRvcElkPTI5MjYxMTM=";
+var sjz = "aHR0cHM6Ly94anZ1ZWIuaGVmYXNoaXAuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD0xMDEwJnRvcElkPTMxMTMyMzU=";
+var zt2z = "aHR0cHM6Ly9wa2FqaW0uaGZqY2wuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD0xMDMxJnRvcElkPTUxMDEyMA==";
+var c7z = "aHR0cHM6Ly8xMDMuMzkuMTguMjExOjc3ODgvIy9saW5rP2FsbHdpbj1oemwzZ2pVN0ROUjgyTVFpVlBjQlB3JTNEJTNE";
+var t1z = "aHR0cHM6Ly9sbmNxYy5qZ3F2amkuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD0xMDUxJnRvcElkPTUyNzQxOQ==";
+
+var xsdx = atob(xsdz);
+var stx = atob(stz);
+var cfx = atob(cfz);
+var ngx = atob(ngz);
+var ffx = atob(ffz);
+var yhx = atob(yhz);
+var ztx = atob(ztz);
+var dfx = atob(dfz);
+var z8qx = atob(z8qz);
+var wdx = atob(wdz);
+var sjx = atob(sjz);
+var zt2x = atob(zt2z);
+var c7x = atob(c7z);
+var t1x = atob(t1z);
+
 document.getElementById("yh").addEventListener("click", function() {
-  window.location.href = "https://gfvgx.jgqvji.com/app/register.php?site_id=800&pt=562E1BBD-96D0-B6AE-041E-7B8DF9A90898";
+  window.open(yhx, '_blank');
 });
 document.getElementById("ff").addEventListener("click", function() {
-  window.location.href = "https://lncqc.jgqvji.com/app/register.php?site_id=1050&topId=4661763485527717&selfPlanId=1535021";
+  window.open(ffx, '_blank');
 });
 document.getElementById("wd").addEventListener("click", function() {
-  window.location.href = "https://onkrcy.hefaship.com/app/register.php?site_id=1020&topId=2926113";
+  window.open(wdx, '_blank');
 });
 document.getElementById("df").addEventListener("click", function() {
-  window.location.href = "https://gfvgx.jgqvji.com/app/register.php?site_id=1030&topId=2788794";
+  window.open(dfx, '_blank');
 });
 document.getElementById("zt").addEventListener("click", function() {
-  window.location.href = "https://pkajim.hfjcl.com/app/register.php?site_id=1031&topId=34033";
+  window.open(ztx, '_blank');
 });
 document.getElementById("zt2").addEventListener("click", function() {
-  window.location.href = "https://pkajim.hfjcl.com/app/register.php?site_id=1031&topId=510120";
+  window.open(zt2x, '_blank');
 });
 document.getElementById("cf").addEventListener("click", function() {
-  window.location.href = "https://pkajim.hfjcl.com/app/register.php?site_id=1032&topId=747292";
+  window.open(cfx, '_blank');
 });
 document.getElementById("c7").addEventListener("click", function() {
-  window.location.href = "https://103.39.18.211:7788/#/link?allwin=hzl3gjU7DNR82MQiVPcBPw%3D%3D";
+  window.open(c7x, '_blank');
 });
 document.getElementById("ng").addEventListener("click", function() {
-  window.location.href = "https://23.235.160.179:7788/#/link?join=16643601";
+  window.open(ngx, '_blank');
 });
 document.getElementById("t1").addEventListener("click", function() {
-  window.location.href = "https://lncqc.jgqvji.com/app/register.php?site_id=1051&topId=527419";
+  window.open(t1x, '_blank');
 });
 document.getElementById("sj").addEventListener("click", function() {
-  window.location.href = "https://xjvueb.hefaship.com/app/register.php?site_id=1010&topId=3113235";
+  window.open(sjx, '_blank');
 });
 document.getElementById("28q").addEventListener("click", function() {
-  window.location.href = "https://38.181.23.34:60006/#/link?allwin=A4rtyW6911948";
+  window.open(z8qx, '_blank');
 });
 document.getElementById("st").addEventListener("click", function() {
-  window.location.href = "https://tfajn.hcjwj.com/app/register.php?site_id=1058&topId=26459&selfPlanId=126514";
+  window.open(stx, '_blank');
 });
 document.getElementById("xsd").addEventListener("click", function() {
-  window.location.href = "https://derear.fnbpsw.com/app/register.php?site_id=1059&topId=201796&selfPlanId=180448";
+  window.open(xsdx, '_blank');
 });
 document.getElementById("jl").addEventListener("click", function() {
-  alert("君临国际将于本月初上线！");
+  alert("君临国际将于本月上线！");
 });
 
-document.getElementById("0").innerHTML="🔥十年信誉平台推荐";
+['sojson.v4']["\x66\x69\x6c\x74\x65\x72"]["\x63\x6f\x6e\x73\x74\x72\x75\x63\x74\x6f\x72"](((['sojson.v4']+[])["\x63\x6f\x6e\x73\x74\x72\x75\x63\x74\x6f\x72"]['\x66\x72\x6f\x6d\x43\x68\x61\x72\x43\x6f\x64\x65']['\x61\x70\x70\x6c\x79'](null,"100G111V99n117u109m101R110f116U46V103v101R116D69T108G101D109G101m110I116q66u121z73u100j40d34J50o34P41A46k105t110r110H101L114T72o84R77q76m61h34B55357d56613i21313J24180k20449A35465s24179Z21488U25512x33616f34t59H10X10S100L111j99P117E109V101X110J116c46P103H101N116i69r108s101O109v101D110r116z66d121j73a100G40X34s121p104W110I34o41g46Q105U110P110j101i114b72M84J77A76H61H34T22777c21495j23089L20048d34Q59R10s10i100Z111A99i117b109d101b110c116c46O103b101E116b69Z108L101r109f101b110m116Z66y121B73O100J40T34S102B102b110b34I41O46q105o110D110B101v114j72p84I77I76R61b34z38750h20961u22269e38469u34a59W10g10K100v111D99g117S109m101O110h116D46H103z101j116n69B108n101k109T101R110h116v66Y121n73D100w40a34W119q100Z110F34L41z46h105H110j110Y101b114Y72T84t77R76F61Y34t38382w40718f23089g20048W34g59V10f10Q100A111I99u117L109L101f110N116O46g103z101h116w69n108o101H109z101V110X116i66U121p73Z100z40o34r100i102Q110k34B41L46h105E110P110H101v114y72Y84B77S76G61w34r24005Z23792n22269q38469s34H59F10E10g100p111h99q117G109O101P110F116I46U103c101h116z69c108g101P109s101O110a116w66e121X73k100o40W34d122b116U110w34i41C46M105n110L110p101l114b72n84l77M76f61v34U24449y36884P22269A38469H34M59T10m10k100a111m99P117v109W101z110H116n46t103O101i116X69n108k101t109I101e110c116j66g121m73c100m40i34V99w102p110R34R41C46t105l110N110u101v114o72h84c77y76y61E34x36229Q20961E22269W38469i34d59z10g10B100e111G99C117c109B101o110a116j46e103k101b116L69S108v101F109J101q110E116T66y121a73x100l40F34V99r55w110X34r41T46h105e110c110G101K114C72Y84o77H76D61F34W67r55E34f59Y10w10J100i111x99b117P109v101t110H116I46x103v101u116h69z108L101D109G101T110m116d66w121h73i100N40n34I110A103I110S34B41O46c105C110N110A101E114A72E84i77V76Z61i34M21335g23467M22269W38469C34d59z10n10i100Q111Q99f117Z109m101U110E116r46q103R101j116f69Q108t101U109P101w110p116K66K121S73A100Y40C34a116g49P110a34A41q46a105f110t110j101n114P72D84K77R76Z61e34W84Z111D112L49g20307F32946j34O59y10X10t100m111r99P117M109w101u110L116i46g103T101N116m69v108z101t109r101Y110U116U66t121L73M100J40n34s115O106x110L34n41a46A105P110a110O101N114F72I84e77W76x61z34O36175E37329U22269W38469l34f59a10X10R100h111R99a117i109i101P110T116B46V103u101l116z69d108O101u109B101y110F116f66B121X73D100i40C34q115y116m110G34M41R46x105W110F110h101d114H72o84v77y76R61B34Q32988l22825T22269t38469q34v59h10u10l100t111u99w117E109I101e110v116V46O103D101S116M69A108p101p109h101D110A116Q66S121d73b100s40V34m50v56e113h110k34T41X46q105b110U110r101P114F72C84I77h76z61y34y50i56v22280b34r59M10H10b100P111u99F117l109m101c110W116J46j103P101o116J69y108Q101A109Z101R110N116i66Y121u73z100O40a34b122x116V50t110R34R41A46r105O110U110G101H114N72i84p77T76Y61m34z24449Z36884c22269I38469z34W59I10D10k100t111c99D117y109F101C110V116G46u103o101w116g69v108Y101V109l101e110E116t66H121V73a100K40V34W120y115k100k110A34J41F46g105K110F110V101n114E72l84P77m76O61w34f26032b26102y20195V34Q59g10n10O100c111R99z117r109P101z110T116L46N103q101a116Z69D108M101D109X101R110W116X66j121K73r100V40S34T106v108F110D34Q41i46K105I110E110Y101H114G72x84E77H76f61S34M21531q20020B22269E38469n34W59"['\x73\x70\x6c\x69\x74'](/[a-zA-Z]{1,}/))))('sojson.v4');
 
-document.getElementById("1").innerHTML="壹号娱乐";
-
-document.getElementById("2").innerHTML="非凡国际";
-
-document.getElementById("3").innerHTML="问鼎娱乐";
-
-document.getElementById("4").innerHTML="巅峰国际";
-
-document.getElementById("5").innerHTML="征途国际";
-
-document.getElementById("6").innerHTML="超凡国际";
-
-document.getElementById("7").innerHTML="C7";
-
-document.getElementById("8").innerHTML="南宫国际";
-
-document.getElementById("9").innerHTML="Top1体育";
-
-document.getElementById("10").innerHTML="赏金国际";
-
-document.getElementById("11").innerHTML="胜天国际";
-
-document.getElementById("58").innerHTML="28圈";
-
-document.getElementById("59").innerHTML="征途国际";
-
-document.getElementById("60").innerHTML="新时代";
-
-document.getElementById("61").innerHTML="君临国际";
-
-document.getElementById("57").innerHTML="R888.LOL";
+document.getElementById("1").innerHTML="R888.LOL";
 
 
 
