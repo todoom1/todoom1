@@ -5,35 +5,25 @@
     max-width: 100% !important;
     min-width: inherit;
 }
-html * {
-    outline: 0;
-    -webkit-text-size-adjust: none;
-    -webkit-tap-highlight-color: transparent;
-}
-abbr, address, article, aside, audio, b, blockquote, body, canvas, caption, cite, code, dd, del, details, dfn, div, dl, dt, em, fieldset, figcaption, figure, footer, form, h4, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, p, pre, q, samp, section, small, span, summary, table, tbody, td, tfoot, th, thead, time, tr, ul, var, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-    font-family: "Microsoft YaHei", Verdana, sans-serif;
-    outline: 0;
-}
-:root {
-    view-transition-name: root;
-}
-html {
-    display: block;
-}
-.article div, .article p {
-    margin-bottom: 15px;
-    line-height: 175%;
-    font-size: 16px;
-}
-.spm h1 {
-    text-align: center;
-    margin: 20px 0 0 0;
-    font-size: 24px;
-    line-height: 150%;
-}
+h1 {font-size: 40px; font-weight: bold; border-bottom: 2px solid rgb(204, 204, 204); padding: 0px 4px 0px 0px; text-align: left; margin: 0px 0px 20px;}
+.webwidth{margin:0 auto;position: relative;max-width:1200px;}
+.main{margin:60px 0 20px 0;padding:0;overflow: hidden;}
+.mainleft{width:100%;float:left;}
+.main_page{margin:0 auto;max-width:675px;padding-top:10px;}
+.main_page .spm h1{text-align:left;}
+.main_page .spm .info{text-align:left;}
+.main_page .spm .info span{margin:0 15px 0 0;}
+.article {padding-top:15px;} 
+.article div,.article p{margin-bottom:15px;line-height:175%;font-size:16px;}
+.article div:last-child,.article p:last-child{margin-bottom:0;}
+.article img{display:inline;width:auto;height:auto!important;max-width:100%!important;min-width:inherit;}
+.article h2 , .article h3 , .article h4 , .article h5{text-align:left;border-bottom: 2px #1c980b solid;background: #f5f5f5; line-height: 150%;padding:7px 15px;margin: 0 0 15px 0;}
+.article table{border-collapse:collapse;width:100%;margin:10px 0;}
+.article section{width:100%!important} 
+/**默认样式**/
+.article table tr:first-child{color:#fff;background:#1c980b!important;}
+.article table tr:first-child td{font-weight:700;}
+.article table tr:nth-child(2n-1){background:rgba(4, 4, 4, 0.03)}
+.article table td{text-align:center;padding:10px;line-height:150%;vertical-align: middle;}
+.article table td a{padding:2px 5px;border-radius: 5px;text-decoration:none;text-align:center;overflow: hidden;display: block}
+.article table td , .article table td a {border:1px solid #ebebeb;}
