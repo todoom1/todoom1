@@ -99,22 +99,8 @@ h1 {
 width:100%;
   margin: 20px 6px;
  font-size: 55px;
-  -webkit-background-clip: text;
-  background: linear-gradient(to bottom, white, red);
-  background-clip: text;
   text-align:center;
-  color: transparent;
-  background-size: 100% 200%;
-  animation: blinkColor 3s ease-in-out infinite alternate;
-}
-@keyframes blinkColor {
-0% {
-        background-position: 0% 0%;
-      }
-      100% {
-        background-position: 0% 100%;
-      }
+color: white; }
 
-    }
 
 
