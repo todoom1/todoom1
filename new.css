@@ -108,16 +108,20 @@ body::before {
 .app-icon img{display:block;width:30px;height:30px;padding:0px;background:#fff;border-radius:10px;margin:0 auto}
 .app-icon svg{display:block;width:30px;height:30px;padding:0px;background:#fff;border-radius:10px;margin:0 auto}
 h3 {
-text-align:center;
-color: white;
-border-radius: 8px;
-}
+ width:100%;
+ font-size: 18px;
+  text-align:center;
+  color: white;}
 h1 {
 width:100%;
   margin: 20px 6px;
  font-size: 55px;
   text-align:center;
   color: white;}
+.sjb {
+display:block;width: 100%;background-image: url('./sjb.jpg');border-radius:10px; background-size: cover;padding:30px;
+margin: 10px 0px;}
+
 
 
 
