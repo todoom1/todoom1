@@ -4,12 +4,11 @@ var cfz = "aHR0cHM6Ly9wa2FqaW0uaGZqY2wuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD0xM
 var ngz = "aHR0cHM6Ly8xMDMuNTQuNjAuMjI6ODg2Ni8jL2xpbms/am9pbj0xNjY0MzYwMQ==";
 var ffz = "aHR0cHM6Ly9sbmNxYy5qZ3F2amkuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD0xMDUwJnRvcElkPTQ2NjE3NjM0ODU1Mjc3MTcmc2VsZlBsYW5JZD0xNTM1MDIx";
 var yhz = "aHR0cHM6Ly9nZnZneC5qZ3F2amkuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD04MDAmcHQ9NTYyRTFCQkQtOTZEMC1CNkFFLTA0MUUtN0I4REY5QTkwODk4";
-var ztz = "aHR0cHM6Ly9wa2FqaW0uaGZqY2wuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD0xMDMxJnRvcElkPTM0MDMz";
+var ztz = "aHR0cHM6Ly9wa2FqaW0uaGZqY2wuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD0xMDMxJnRvcElkPTM0MDMzDQ==";
 var dfz = "aHR0cHM6Ly9nZnZneC5qZ3F2amkuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD0xMDMwJnRvcElkPTI3ODg3OTQ=";
 var z8qz = "aHR0cHM6Ly8zOC4xODEuMjMuMzQ6NjAwMDYvIy9saW5rP2FsbHdpbj1BNHJ0eVc2OTExOTQ4";
 var wdz = "aHR0cHM6Ly9vbmtyY3kuaGVmYXNoaXAuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD0xMDIwJnRvcElkPTI5MjYxMTM=";
 var sjz = "aHR0cHM6Ly94anZ1ZWIuaGVmYXNoaXAuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD0xMDEwJnRvcElkPTMxMTMyMzU=";
-var zt2z = "aHR0cHM6Ly9wa2FqaW0uaGZqY2wuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD0xMDMxJnRvcElkPTUxMDEyMA==";
 var c7z = "aHR0cHM6Ly8xMDMuMzkuMTguMjExOjc3ODgvIy9saW5rP2FsbHdpbj1oemwzZ2pVN0ROUjgyTVFpVlBjQlB3JTNEJTNE";
 var t1z = "aHR0cHM6Ly9sbmNxYy5qZ3F2amkuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD0xMDUxJnRvcElkPTUyNzQxOQ==";
 var jlx = atob("aHR0cHM6Ly90ZmFqbi5oY2p3ai5jb20vYXBwL3JlZ2lzdGVyLnBocD9zaXRlX2lkPTIwODEmdG9wSWQ9MzUzMTEmc2VsZlBsYW5JZD0xNDYyNzI=");
@@ -25,7 +24,6 @@ var dfx = atob(dfz);
 var z8qx = atob(z8qz);
 var wdx = atob(wdz);
 var sjx = atob(sjz);
-var zt2x = atob(zt2z);
 var c7x = atob(c7z);
 var t1x = atob(t1z);
 
@@ -43,9 +41,6 @@ document.getElementById("df").addEventListener("click", function() {
 });
 document.getElementById("zt").addEventListener("click", function() {
   window.open(ztx, '_blank');
-});
-document.getElementById("zt2").addEventListener("click", function() {
-  window.open(zt2x, '_blank');
 });
 document.getElementById("cf").addEventListener("click", function() {
   window.open(cfx, '_blank');
@@ -80,7 +75,6 @@ document.getElementById("cfn").innerHTML = ("超凡国际");
 document.getElementById("ngn").innerHTML = ("NG娱乐");
 document.getElementById("ffn").innerHTML = ("非凡国际");
 document.getElementById("ztn").innerHTML = ("征途国际");
-document.getElementById("zt2n").innerHTML = ("征途国际");
 document.getElementById("dfn").innerHTML = ("巅峰国际");
 document.getElementById("28qn").innerHTML = ("28圈");
 document.getElementById("wdn").innerHTML = ("问鼎娱乐");
@@ -90,7 +84,8 @@ document.getElementById("t1n").innerHTML = ("TOP1体育");
 document.getElementById("xsdn").innerHTML = ("新时代");
 document.getElementById("stn").innerHTML = ("胜天国际");
 document.getElementById("jln").innerHTML = ("君临国际");
-document.getElementById("2").innerHTML = ("🔥十年信誉 世界杯官投平台");
+document.getElementById("2").innerHTML = ("🔥十年信誉平台<br>世界杯官方投注平台");
 document.getElementById("1").innerHTML="R888.LOL";
+
 
 
