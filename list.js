@@ -82,7 +82,7 @@ document.getElementById("ffn").innerHTML = ("非凡国际");
 document.getElementById("ztn").innerHTML = ("征途国际");
 document.getElementById("zt2n").innerHTML = ("征途国际");
 document.getElementById("dfn").innerHTML = ("巅峰国际");
-document.getElementById("z8qn").innerHTML = ("28圈");
+document.getElementById("28qn").innerHTML = ("28圈");
 document.getElementById("wdn").innerHTML = ("问鼎娱乐");
 document.getElementById("sjn").innerHTML = ("赏金国际");
 document.getElementById("c7n").innerHTML = ("C7");
@@ -92,4 +92,5 @@ document.getElementById("stn").innerHTML = ("胜天国际");
 document.getElementById("jln").innerHTML = ("君临国际");
 document.getElementById("2").innerHTML = ("🔥十年信誉 世界杯官投平台");
 document.getElementById("1").innerHTML="R888.LOL";
+
 
