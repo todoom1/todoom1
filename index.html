@@ -1,7 +1,6 @@
 <html lang="zh-CN">
 <head>
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'none'; frame-ancestors 'none'; object-src 'none'; base-uri 'self'; form-action 'self';">
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+、<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title>fastf导航网</title>
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -18,6 +17,23 @@
 <link rel="stylesheet" href="./new.css">
 <script async="" src="./list.js"></script>
 <script async="" src="./inpro.js"></script>
+<script>
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+            navigator.serviceWorker.register('/sw.js')
+                .then(reg => console.log('SW registered:', reg.scope))
+                .catch(err => console.error('SW registration failed:', err));
+            
+            // 可选：监听更新并自动刷新 (如果需要用户无感知更新，可去掉下面这段)
+            let refreshing = false;
+            navigator.serviceWorker.addEventListener('controllerchange', () => {
+                if (refreshing) return;
+                refreshing = true;
+                window.location.reload();
+            });
+        });
+    }
+</script>
 </head>
 <body>
  <div class="sjb">
