@@ -15,7 +15,6 @@ document.getElementById("gr").addEventListener("click", function() {  window.loc
 document.getElementById("bjl").addEventListener("click", function() {  window.location.href = "https://www.ab8888.games:8888/?loginType=2&amp;trial=true&amp;language=zh_CN";});
 document.getElementById("tymn").addEventListener("click", function() {  window.location.href = "https://test.f66b88sport.com/h5/index.html#/";});
 document.getElementById("cpmn").addEventListener("click", function() {  window.location.href = "https://pc.obcp.live/redirect.html";});
-document.getElementById("bzmj").addEventListener("click", function() {  window.location.href = "./bz";});
 document.getElementById("oy").addEventListener("click", function() {  window.location.href = "https://www.vmutkhamuut.com/join/40221549";});
 document.getElementById("ba").addEventListener("click", function() {  window.location.href = "https://www.maxweb.academy/referral/earn-together/refer-in-hotsummer/claim?hl=zh-CN&ref=GRO_20338_SI463&utm_source=default";});
 document.getElementById("xnb").addEventListener("click", function() {  window.location.href = "./xnb.html";});
@@ -50,7 +49,6 @@ document.getElementById("24").innerHTML="GR模拟器";
 document.getElementById("25").innerHTML="百家乐模拟器";
 document.getElementById("26").innerHTML="体育模拟器";
 document.getElementById("27").innerHTML="彩票模拟器";
-document.getElementById("28").innerHTML="爆庄秘籍";
 document.getElementById("37").innerHTML="欧易";
 document.getElementById("51").innerHTML="币安";
 document.getElementById("38").innerHTML="虚拟币入门";
