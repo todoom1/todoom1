@@ -1,8 +1,19 @@
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<title>fastf导航网</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>fastf导航网</title>
+    <meta name="keywords" content="fastf导航网">
+    <meta name="description" content="PG导航 - 您的掌上娱乐天地">
+    <link rel="stylesheet" href="./new.css">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="renderer" content="webkit">
+    <meta name="force-rendering" content="webkit">
+    <meta name="x5-fullscreen" content="true">
+    <meta name="x5-page-mode" content="app">
 <script>
     if ('serviceWorker' in navigator) {
         navigator.serviceWorker.register('/sw.js')
@@ -20,23 +31,11 @@
         navigator.serviceWorker.addEventListener('controllerchange', () => {
             if (refreshing) return;
             refreshing = true;
-            // 新版本激活后，刷新页面以应用新 SW
+            // 新版本激活后，刷新页面以应用
             window.location.reload();
         });
     }
 </script>
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-touch-fullscreen" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black">
-<meta name="full-screen" content="yes">
-<meta name="browsermode" content="application">
-<meta name="x5-fullscreen" content="true">
-<meta name="x5-page-mode" content="app">
-<meta name="lsvn" content="djEuNy4w">
-<meta name="keywords" content="fastf导航网">
-<meta name="description" content="fastf导航网">
-<link rel="icon" href="./svg/fm.svg">
-<link rel="stylesheet" href="./new.css">
 <script defer src="./list.js"></script>
 <script defer src="./inpro.js"></script>
 </head>
