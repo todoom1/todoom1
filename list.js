@@ -84,6 +84,21 @@ window["document"]['getElementById']("jln")['innerHTML'] = ("君临国际");
 window["document"]['getElementById']("3")['innerHTML'] = ("FIFA World Cup 2026™<br>官方合作广告商");
 window["document"]['getElementById']("2")['innerHTML'] = ("🔥十年信誉平台<br>⚽世界杯官方投注平台");
 window["document"]['getElementById']("1")['innerHTML'] = "R888.LOL";
-window.onload = function() {
-      alert("欢迎访问R888！");
-    };
+function showPopupOnce(popupId = 'sw_loaded') {
+  const key = `popup_${popupId}_shown`;
+  
+  if (localStorage.getItem(key)) {
+    return; 
+  }
+  alert('欢迎访问R888！');
+  localStorage.setItem(key, Date.now().toString());
+}
+window.addEventListener('load', function() {
+  showPopupOnce();
+});
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/sw.js')
+    .then(function(registration) {
+      console.log('SW registered');
+    });
+}
