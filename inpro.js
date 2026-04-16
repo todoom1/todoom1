@@ -1,71 +1,69 @@
-document.getElementById("pg").addEventListener("click", function() {  window.location.href = "./tea1.html";});
-document.getElementById("pp").addEventListener("click", function() {  window.location.href = "./pptest.html";});
-document.getElementById("hackmnq").addEventListener("click", function() {  window.location.href = "./hacksaw.html";});
-document.getElementById("mg").addEventListener("click", function() {  window.location.href = "./mg.html";});
-document.getElementById("ap").addEventListener("click", function() {  window.location.href = "./ap.html";});
-document.getElementById("bbin").addEventListener("click", function() {  window.location.href = "./bbin.html";});
-document.getElementById("bymnq").addEventListener("click", function() {  window.location.href = "./by.html";});
-document.getElementById("ps").addEventListener("click", function() {  window.location.href = "./ps.html";});
-document.getElementById("qp").addEventListener("click", function() {  window.location.href = "./zy.html";});
-document.getElementById("cg").addEventListener("click", function() {  window.location.href = "https://demo.cg11pro.com/index_m.php";});
-document.getElementById("sgmnq").addEventListener("click", function() {  window.location.href = "https://sgslot.com/";});
-document.getElementById("vtmnq").addEventListener("click", function() {  window.location.href = "./vt.html";});
-document.getElementById("ka").addEventListener("click", function() {  window.location.href = "https://www.kaga88.com/";});
-document.getElementById("gr").addEventListener("click", function() {  window.location.href = "https://grdemoweb.richgaming.net/";});
-document.getElementById("bjl").addEventListener("click", function() {  window.location.href = "https://www.ab8888.games:8888/?loginType=2&amp;trial=true&amp;language=zh_CN";});
-document.getElementById("tymn").addEventListener("click", function() {  window.location.href = "https://test.f66b88sport.com/h5/index.html#/";});
-document.getElementById("cpmn").addEventListener("click", function() {  window.location.href = "https://pc.obcp.live/redirect.html";});
-document.getElementById("oy").addEventListener("click", function() {  window.location.href = "https://www.vmutkhamuut.com/join/40221549";});
-document.getElementById("ba").addEventListener("click", function() {  window.location.href = "https://www.maxweb.academy/referral/earn-together/refer-in-hotsummer/claim?hl=zh-CN&ref=GRO_20338_SI463&utm_source=default";});
-document.getElementById("xnb").addEventListener("click", function() {  window.location.href = "./xnb.html";});
-document.getElementById("ggy").addEventListener("click", function() {  window.location.href = "https://maidongyun.com/#/register?code=V5fllz2y";});
-document.getElementById("dkd").addEventListener("click", function() {  window.location.href = "https://www.dukadi.xyz/#/register?code=ZrNq0rDZ";});
-document.getElementById("dm").addEventListener("click", function() {  window.location.href = "https://666.damai222.cc/#/register?code=JGQT6iHz";});
-document.getElementById("jryw").addEventListener("click", function() {  window.location.href = "https://60s.lylme.com/";});
-document.getElementById("hwid").addEventListener("click", function() {  window.location.href = "https://id.ali-door.top/share/damai";});
-document.getElementById("rjdq").addEventListener("click", function() {  window.location.href = "https://52qfx.lanzouw.com/b01jdki3a";});
-document.getElementById("dxjm").addEventListener("click", function() {  window.location.href = "http://www.eomsg.com/appweb/signUp.html?inviter=1o0je3kd";});
-document.getElementById("htyw").addEventListener("click", function() {  window.location.href = "https://1000tool.com/text/penmanship/";});
-document.getElementById("jable").addEventListener("click", function() {  window.location.href = "https://jable.tv/";});
-document.getElementById("you").addEventListener("click", function() {  window.location.href = "https://www.youporn.com/";});
-document.getElementById("njav").addEventListener("click", function() {  window.location.href = "https://njav.tv/";});
-document.getElementById("phub").addEventListener("click", function() {  window.location.href = "https://pornhub.com";});
-document.getElementById("air").addEventListener("click", function() {  window.location.href = "https://tv-skyairav.cc/";});
+const apps = [
+{id: 'pg', img: './svg/pg.svg', name: 'PG模拟器', url: './tea1.html', cat: 'gemes'},
+{id: 'pp', img: './svg/pp.svg', name: 'PP模拟器', url: './pptest.html', cat: 'gemes'},
+{id: 'hackmnq', img: './svg/pg.svg', name: 'HS模拟器', url: './hacksaw.html', cat: 'gemes'},
+{id: 'mg', img: './svg/mg.svg', name: 'MG模拟器', url: './mg.html', cat: 'gemes'},
+{id: 'ap', img: './svg/ap.svg', name: 'AP模拟器', url: './ap.html', cat: 'gemes'},
+{id: 'bbin', img: './svg/bbin.svg', name: 'BBIN模拟器', url: './bbin.html', cat: 'gemes'},
+{id: 'bymnq', img: './svg/by.svg', name: '捕鱼模拟器', url: './by.html', cat: 'gemes'},
+{id: 'ps', img: './svg/ps.svg', name: 'PS模拟器', url: './ps.html', cat: 'gemes'},
+{id: 'qp', img: './png/null.png', name: '棋牌模拟器', url: './zy.html', cat: 'gemes'},
+{id: 'cg', img: './svg/cg.svg', name: 'cg模拟器', url: 'https://demo.cg11pro.com/index_m.php', cat: 'gemes'},
+{id: 'sgmnq', img: './svg/sg.svg', name: 'SG模拟器', url: 'https://sgslot.com/', cat: 'gemes'},
+{id: 'vtmnq', img: './svg/pg.svg', name: 'VT模拟器', url: './vt.html', cat: 'gemes'},
+{id: 'ka', img: './png/nullb.png', name: 'KA模拟器', url: 'https://www.kaga88.com/', cat: 'gemes'},
+{id: 'gr', img: './svg/gr.svg', name: 'GR模拟器', url: 'https://grdemoweb.richgaming.net/', cat: 'gemes'},
+{id: 'bjl', img: './png/qt.png', name: '百家乐模拟器', url: 'https://www.ab8888.games:8888/?loginType=2&amp;trial=true&amp;language=zh_CN', cat: 'gemes'},
+{id: 'tymn', img: './png/fb.png', name: '体育模拟器', url: 'https://test.f66b88sport.com/h5/index.html#/', cat: 'gemes'},
+{id: 'cpmn', img: './png/cp.png', name: '彩票模拟器', url: 'https://pc.obcp.live/redirect.html', cat: 'gemes'},
+{id: 'oy', img: './svg/oy.svg', name: '欧易', url: 'https://www.vmutkhamuut.com/join/40221549', cat: 'bths'},
+{id: 'ba', img: './svg/ba.svg', name: '币安', url: 'https://www.maxweb.academy/referral/earn-together/refer-in-hotsummer/claim?hl=zh-CN&ref=GRO_20338_SI463&utm_source=default', cat: 'bths'},
+{id: 'xnb', img: './png/npc.png', name: '虚拟币入门', url: './xnb.html', cat: 'bths'},
+{id: 'ggy', img: './png/ggy.png', name: '脉动vpn(狗云)', url: 'https://maidongyun.com/#/register?code=V5fllz2y', cat: 'tools'},
+{id: 'dkd', img: './png/dkd.png', name: '杜卡迪vpn', url: 'https://www.dukadi.xyz/#/register?code=ZrNq0rDZ', cat: 'tools'},
+{id: 'dm', img: './png/vpn.png', name: '大麦VPN', url: 'https://666.damai222.cc/#/register?code=JGQT6iHz', cat: 'tools'},
+{id: 'jryw', img: './png/nullb.png', name: '今日要闻', url: 'https://60s.lylme.com/', cat: 'tools'},
+{id: 'hwid', img: './svg/id.svg', name: '海外ID', url: 'https://id.ali-door.top/share/damai', cat: 'tools'},
+{id: 'rjdq', img: './png/rjdq.png', name: '软件大全', url: 'https://52qfx.lanzouw.com/b01jdki3a', cat: 'tools'},
+{id: 'dxjm', img: './svg/dxjm.svg', name: '短信接码', url: 'http://www.eomsg.com/appweb/signUp.html?inviter=1o0je3kd', cat: 'tools'},
+{id: 'htyw', img: './png/nullb.png', name: '花体英文', url: 'https://1000tool.com/text/penmanship/', cat: 'tools'},
+{id: 'jable', img: './svg/jable.svg', name: 'jable', url: 'https://jable.tv/', cat: 'tools'},
+{id: 'you', img: './svg/you.svg', name: 'youporn', url: 'https://www.youporn.com/', cat: 'tools'},
+{id: 'njav', img: './svg/njav.svg', name: 'njav', url: 'https://njav.tv/', cat: 'tools'},
+{id: 'phub', img: './svg/phub.svg', name: 'pornhub', url: 'https://pornhub.com', cat: 'tools'},
+{id: 'air', img: './png/air.png', name: 'air', url: 'https://tv-skyairav.cc/', cat: 'tools'}
+];
 
-document.getElementById("12").innerHTML="PG模拟器";
-document.getElementById("13").innerHTML="PP模拟器";
-document.getElementById("hackmnqn").innerHTML="HS模拟器";
-document.getElementById("15").innerHTML="MG模拟器";
-document.getElementById("16").innerHTML="AP模拟器";
-document.getElementById("17").innerHTML="BBIN模拟器";
-document.getElementById("bymnqn").innerHTML="捕鱼模拟器";
-document.getElementById("18").innerHTML="PS模拟器";
-document.getElementById("19").innerHTML="棋牌模拟器";
-document.getElementById("20").innerHTML="cg模拟器";
-document.getElementById("sgmnqn").innerHTML="SG模拟器";
-document.getElementById("vtmnqn").innerHTML="VT模拟器";
-document.getElementById("23").innerHTML="KA模拟器";
-document.getElementById("24").innerHTML="GR模拟器";
-document.getElementById("25").innerHTML="百家乐模拟器";
-document.getElementById("26").innerHTML="体育模拟器";
-document.getElementById("27").innerHTML="彩票模拟器";
-document.getElementById("37").innerHTML="欧易";
-document.getElementById("51").innerHTML="币安";
-document.getElementById("38").innerHTML="虚拟币入门";
-document.getElementById("39").innerHTML="脉动vpn(狗云)";
-document.getElementById("40").innerHTML="杜卡迪vpn";
-document.getElementById("41").innerHTML="大麦VPN";
-document.getElementById("42").innerHTML="今日要闻";
-document.getElementById("43").innerHTML="海外ID";
-document.getElementById("44").innerHTML="软件大全";
-document.getElementById("45").innerHTML="短信接码";
-document.getElementById("46").innerHTML="jable";
-document.getElementById("47").innerHTML="youporn";
-document.getElementById("48").innerHTML="njav";
-document.getElementById("49").innerHTML="pornhub";
-document.getElementById("50").innerHTML="Airav";
+const categoryContainers = {
+    gemes: document.getElementById('ges'),
+    bths: document.getElementById('bth'),
+    tools: document.getElementById('toos')
+};
+
+function renderApps() {
+    apps.forEach(app => {
+        const container = categoryContainers[app.cat];
+        if (!container) return;
+
+        const li = document.createElement('li');
+        li.className = 'app-item';
+        li.id = app.id;
+
+        li.innerHTML = `
+            <div class="app-icon">
+                <img src="${app.img}" alt="${app.name}">
+            </div>
+            <div class="app-name">${app.name}</div>
+        `;
+        li.addEventListener('click', () => {
+            window.open(app.url, '_blank', 'noopener,noreferrer');
+        });
+
+        container.appendChild(li);
+    });
+}
+renderApps();
 document.getElementById("52").innerHTML="🔥PG模拟器大全";
 document.getElementById("54").innerHTML="虚拟币";
-document.getElementById("55").innerHTML="其他分享&VPN-开VPN可进蓝名";
-
+document.getElementById("55").innerHTML="其他分享&VPN-打不开的网站请开VPN";
 document.getElementById("56").innerHTML="如遇本站功能无法正常使用，请点击下载VPN，即可突破网络封锁正常使用";

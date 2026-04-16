@@ -111,14 +111,20 @@ body::before {
 .sjb{
 display:block;width: 100%;background-image: url('./sjb.svg');border-radius:10px; background-size: cover;padding:30px;background-position: center center;
 margin: 10px 0px;}
-.sjb h3 {
+h3 {
  width:100%;
  font-size: 18px;
   text-align:center;
   color: white;}
-.sjb h1 {
+h1 {
 width:100%;
   margin: 20px 6px;
  font-size: 55px;
   text-align:center;
   color: white;}
+h2 {
+text-align:center;
+background-color:Maroon;
+color: Silver;
+border-radius: 8px;
+}
