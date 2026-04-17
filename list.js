@@ -45,7 +45,7 @@
     });
 })();
 
-window["document"]['getElementById']("3")['innerHTML'] = ("FIFA World Cup 2026™<br>官方合作广告商");
+window["document"]['getElementById']("3")['innerHTML'] = ("FIFA World Cup 2026™<br>-查看赛事赛程-");
 window["document"]['getElementById']("2")['innerHTML'] = ("🔥十年信誉平台<br>⚽世界杯官方投注平台");
 window["document"]['getElementById']("1")['innerHTML'] = "R888.LOL";
 function showPopupOnce(popupId = 'sw_loaded') {
