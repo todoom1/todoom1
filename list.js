@@ -1,5 +1,6 @@
 (function() {
     var secretApps = [
+//https://rsesra.hfjcl.com/app/register.php?site_id=1064&pt=099CEC0A-ADF5-E2C2-1EA5-A866216F85D4
 {img: './png/hygj.jpg', name: '汇赢国际', xurl: 'aHR0cHM6Ly9uY2djYS50cHJzbWkuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD0xMDYyJnRvcElkPTEzODM5JnNlbGZQbGFuSWQ9MTQwNQ=='},
 {img: './png/jlgj.jpg', name: '君临国际', xurl: 'aHR0cHM6Ly90ZmFqbi5oY2p3ai5jb20vYXBwL3JlZ2lzdGVyLnBocD9zaXRlX2lkPTIwODEmdG9wSWQ9MzUzMTEmc2VsZlBsYW5JZD0xNDYyNzI='},
 {img: './png/xsd.jpg', name: '新时代', xurl: 'aHR0cHM6Ly9kZXJlYXIuZm5icHN3LmNvbS9hcHAvcmVnaXN0ZXIucGhwP3NpdGVfaWQ9MTA1OSZ0b3BJZD0yMDE3OTYmc2VsZlBsYW5JZD0xODA0NDg='},
