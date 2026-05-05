@@ -109,17 +109,6 @@ h1 {
     animation: scaleFont 2s infinite;
 }
 
-
-.gif {
-    display: flex;
-}
-
-.gif>img {
-    margin: 1vw auto;
-    width: 90%;
-    border-radius: 3vw;
-}
-
 .YF28-CC {
     display: flex;
     padding: 5vw 3vw;
@@ -147,13 +136,6 @@ h1 {
     width: 100%;
 }
 @media screen and (min-width: 1200px) {
-    .pg-tips {
-        display: none;
-    }
-    .jdb-h1 {
-        font-size: 1.5vw;
-        font-weight: bold;
-    }
     a {
         font-size: 1vw;
     }
@@ -168,24 +150,6 @@ h1 {
     }
     .yum>span:first-child {
         animation: scaleFont 2s infinite;
-    }
-    @keyframes scaleFont {
-        0%,
-        20%,
-        50%,
-        80%,
-        100% {
-            transform: translateY(0) scale(1);
-            /* 初始位置和每次跳动的高度，同时取消旋转 */
-        }
-        40% {
-            transform: translateY(-1vw) scale(1.05);
-            /* 跳起的高度，同时逆时针旋转 */
-        }
-        60% {
-            transform: translateY(-.6vw) scale(1);
-            /* 落下的高度，同时顺时针旋转 */
-        }
     }
     .nav {
         width: 50%;
@@ -222,22 +186,6 @@ h1 {
     .yum {
         border-radius: 1.2vw;
         padding: 1vw 0;
-    }
-    p {
-        margin: 1vw !important;
-    }
-    .gif {
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-    }
-    .q28-none {
-        display: block;
-    }
-    .gif>img {
-        width: 22%;
-        margin: .7vw;
-        border-radius: 1vw;
     }
     .YF28-CC {
         padding: 2vw 1.5vw;

@@ -1,97 +1,232 @@
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <meta name="renderer" content="webkit">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-		<title>虚拟货币新手教程</title>
-</head><style>
-body{
-background-color:black;
-}
-a{
-text-decoration: none;
-color: Silver;
-}
-h1{
-text-align:center;
-background-color:Maroon;
-color: Silver;
-}
-h2{
-text-align:center;
-background-color:Gray;
-color: Silver;
-}
-</style>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>新手指南</title>
+  <style>
+    :root {
+      --bg:        #f5f5f5;
+      --surface:   #ffffff;
+      --text:      #1a1a1a;
+      --text-muted:#6b7280;
+      --border:    #e5e7eb;
+      --accent:    #4f46e5;
+      --spacing:   20px;
+      --radius:    12px;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg:         #0f172a;
+        --surface:    #1e293b;
+        --text:       #e2e8f0;
+        --text-muted: #94a3b8;
+        --border:     #334155;
+        --accent:     #818cf8;
+      }
+    }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont,
+                   "PingFang SC", "Microsoft YaHei", sans-serif;
+      line-height: 1.6;
+      font-size: 16px;
+      margin: 0;
+      -webkit-font-smoothing: antialiased;
+    }
+    .hero {
+      text-align: center;
+      padding: 60px 20px 40px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: var(--spacing);
+    }
+    .hero h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      color: var(--text);
+      margin: 0 0 8px;
+    }
+    .hero .subtitle {
+      color: var(--text-muted);
+      font-size: 1rem;
+      margin: 0;
+    }
+    .container {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 0 20px 60px;
+    }
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 24px;
+      margin-bottom: var(--spacing);
+    }
+    .card h2 {
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: var(--text);
+      margin: 0 0 16px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .card h2::before {
+      content: "";
+      width: 4px;
+      height: 1.25rem;
+      background: var(--accent);
+      border-radius: 2px;
+      flex-shrink: 0;
+    }
+    p {
+      color: var(--text-muted);
+      margin-bottom: 12px;
+    }
+    ul.check-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    ul.check-list li {
+      position: relative;
+      padding-left: 20px;
+      margin-bottom: 12px;
+      color: var(--text-muted);
+    }
+    ul.check-list li::before {
+      content: "✅";
+      position: absolute;
+      left: 0;
+    }
+
+    ol.steps {
+      padding-left: 20px;
+      list-style: none;
+      counter-reset: step;
+    }
+    ol.steps > li {
+      counter-increment: step;
+      position: relative;
+      padding-left: 36px;
+      margin-bottom: 16px;
+      color: var(--text-muted);
+    }
+    ol.steps > li::before {
+      content: counter(step);
+      position: absolute;
+      left: 0;
+      width: 24px;
+      height: 24px;
+      background: var(--accent);
+      color: #fff;
+      border-radius: 50%;
+      font-size: 13px;
+      font-weight: 600;
+      line-height: 24px;
+      text-align: center;
+    }
+    .tags {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-top: 12px;
+    }
+    .tag {
+      background: color-mix(in srgb, var(--accent) 12%, transparent);
+      color: var(--accent);
+      border-radius: 6px;
+      padding: 4px 12px;
+      font-size: 0.875rem;
+      font-weight: 500;
+    }
+    .note {
+      color: var(--text-muted);
+      font-size: 0.875rem;
+      margin-top: 16px;
+      padding: 12px 16px;
+      background: color-mix(in srgb, var(--accent) 8%, transparent);
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    .footer {
+      text-align: center;
+      padding-top: var(--spacing);
+      border-top: 1px solid var(--border);
+    }
+    .footer > p {
+      font-size: 0.875rem;
+      margin-bottom: 16px;
+    }
+    .btn {
+      display: inline-block;
+      background: var(--accent);
+      color: #fff;
+      padding: 10px 24px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: opacity .2s;
+    }
+    .btn:hover {
+      opacity: .85;
+    }
+  </style>
+</head>
 <body>
-    <h1>虚拟货币新手教程</h1>
-        <h2>在踏入币圈之前，许多新手小白都会面临诸多困惑，尤其是关于法律法规、交易所选择及具体操作流程等方面。<br>
-本文将为您详细解答这些常见问题，并以欧易OKX交易所为例，为您呈现一个完整、详细的买卖虚拟货币流程。
-法律法规解读：<br>
-1. 买卖虚拟货币是否违法？<br>
-在国内个人买卖虚拟货币并不违法，但开办虚拟货币企业是明确禁止的。需要注意的是，尽管个人炒币未被法律明文禁止，但应警惕投机风险，并遵守相关金融规定。此外，使用中国电力进行挖矿是违法的，应避免触碰此类红线。<br>
-2. 如何防范诈骗？<br>
-虚拟货币交易中存在诈骗风险，但诈骗行为本身与虚拟货币无直接关联，更多是个人认知和风险意识的问题。提升防范意识，避免轻信陌生人，不参与任何脱离平台的交易，是保护自身财产安全的关键。
-</h2>
-    <h1>本站欧易与币安均为官方下载渠道，大家可放心使用！</h1>
-	    <h2>中国大陆用户的交易所推荐：<br>
-币安：全球最大的加密货币交易所，功能全面，交易量大。<br>
-欧易OKX：手续费低，操作简单，用户体验佳，适合新手入门。
-<br><br>
-购买虚拟货币全流程（以欧易OKX为例）<br>
-准备材料：<br>
-手机号跟邮箱（必须使用真邮箱！）<br>
-身份证<br>
-支付方式（微信、支付宝、银行卡三选一）
-<br><br>
-步骤一：注册账号
-<br><br>
-点击注册链接进入注册页面。
-填写邮箱和验证码，完成初步注册。
-绑定手机号并设置密码，完成账号注册。
-<br><br>
-步骤二：下载APP并登录
-<br><br>
-在注册页面右上角下载APP或扫描二维码下载。
-登录账号，开启通行密钥（可选）。
-<br><br>
-步骤三：实名认证
-<br><br>
-点击【去认证】→【立即认证】。
-选择国家地区（如中国）和证件类型（身份证）。
-上传身份证信息并进行人脸识别认证。
-<br><br>
-步骤四：入金（购买USDT）
-<br><br>
-进入C2C买币页面，绑定收款账户（支付宝、微信、银行卡）。
-选择成交量高、成单率高、注册时间长的商家。
-输入购买金额，选择支付方式并支付。
-等待卖家确认收款并放币。
-<br><br>
-步骤五：购买币对（以OKB为例）
-<br><br>
-在首页搜索或点击OKB进入交易页面。
-选择限价委托或市价委托进行买入。
-等待交易完成，查看资产。
-<br><br>
-步骤六：卖出币对（以OKB为例）
-<br><br>
-进入OKB交易页面，选择卖出。
-选择限价委托或市价委托进行卖出。
-查看交易记录，确认卖出成功。
-<br><br>
-步骤七：卖出USDT
-<br><br>
-进入C2C买币页面（出售），筛选合适的商家。
-划转USDT到资金账户。
-填写出售信息并确认收款账号。
-等待商家付款后查看是否到账并确认收款，完成放币。
-<br><br>
-步骤八：查看手续费返现与划转
-<br><br>
-在资产页面查看手续费返现和交易记录。
-了解资金账户与交易账户的区别，并进行必要的划转操作。
-通过以上详细步骤，您可以在欧易OKX交易所安全、合法地买卖虚拟货币。记住，投资有风险，入市需谨慎。在享受数字货币带来的便利和收益的同时，也要不断提升自己的风险意识和防范能力。希望本文能为您的币圈之旅提供有益的帮助！
-<br><br>如有更多使用疑问，请直接访问欧易或币安的帮助页面查看如何正确使用。
-</h2>
-            <a href="index.html"><h2>返回首页</h2></a><br><br>
-</body></html>  
+
+  <header class="hero">
+    <h1>虚拟货币新手指南</h1>
+    <p class="subtitle">从入门到实战，内含交易合约等币圈实用内容！</p>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>📜 法律法规与安全提示</h2>
+      <ul class="check-list">
+        <li>国内个人买卖虚拟货币不违法，但严禁设立虚拟货币企业或违规挖矿。</li>
+        <li>投资有风险，请认准官方平台，拒绝场外私转与高息诱惑。</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>🌐 交易所推荐</h2>
+      <p>本站提供<strong>欧易OKX</strong>与<strong>币安(Binance)</strong>官方直链，安全可信。（打不开请加速，安装应用后无需加速即可使用。）</p>
+      <div class="tags">
+        <span class="tag">欧易OKX · 新手友好</span>
+        <span class="tag">币安Binance · 全球龙头</span>
+      </div>
+    </section>
+
+    <section class="card full">
+      <h2>📖 全流程指南（以欧易OKX为例）</h2>
+      <ol class="steps">
+        <li><strong>注册账号</strong>：点击官方链接，使用邮箱+手机验证完成注册。</li>
+        <li><strong>下载APP</strong>：注册页右上角下载或扫码，登录并开启通行密钥（可选）。</li>
+        <li><strong>实名认证</strong>：上传身份证并完成人脸识别（需选中国大陆）。</li>
+        <li><strong>C2C买币</strong>：选择认证商家（买卖币尽量选择带徽章标识的商家），绑定支付渠道，完成USDT购买。</li>
+        <li><strong>现货交易</strong>：搜索币对（如 OKB/USDT），选择限价或市价委托。</li>
+        <li><strong>C2C卖币</strong>：在"买币-出售"页面筛选商家（买卖币尽量选择带徽章标识的商家），划转资产，收款后,确认无误方可放币。</li>
+      </ol>
+      <p class="note">💡 提示：资金账户与交易账户需手动划转，请留意手续费返现与资产明细。<br>⚠️注意：本教程为初级使用教程，若对交易及其他功能有疑问，请直接使用欧易或币安中的帮助功能！</p>
+    </section>
+	
+    <section class="card full">
+      <h2>📖 合约交易基础教程（以欧易OKX为例）</h2>
+      <ol class="steps">
+        <li><strong>交易前准备（账号必须实名）</strong><br>1、资金划转：将USDT从“资金账户”手动划转至“合约账户”。<br>2、选择合约类型：新手统一选择“U本位永续合约”（盈亏以USDT结算）。<br>3、确认交易对：在交易页搜索目标币种，确保后缀带“USDT”及“永续”标识。</li>
+        <li><strong>开仓操作流程（以做多为例）</strong><br>1、设置参数：杠杆调至1~5倍 → 仓位模式勾选“逐仓” → 输入开仓数量或金额。<br>2、选择方向：点击“市价开多”或“限价开多” → 核对价格与数量 → 确认下单。<br>3、开仓后动作：立即进入“持仓”页，添加“止损”委托（必填，防爆仓）。<br>4、记录关键数据：记下开仓价、强平价、剩余保证金，便于实时跟踪。</li>
+        <li><strong>平仓与风控设置（生存核心）</strong><br>1、手动平仓：在持仓页点击“市价平仓”或“限价平仓”，成交后保证金退回资金账户。<br>2、止盈策略：到达目标价前设置“止盈”委托，不贪心，分批落袋更稳。<br>3、强平机制：价格触及强平价将强制结算，逐仓模式仅损失该笔保证金，不影响其他资产。<br>4、资金管理：单笔开仓不超过总本金5%，留足余量应对插针波动。</li>
+        <li><strong>必须遵守的铁律（避坑指南）</strong><br>1、杠杆≤5倍，高杠杆=加速归零，绝不追求倍率。<br>2、模式固定“逐仓”，永不使用“全仓”；单笔必设止损，绝不扛单、绝不补仓摊平。<br>3、避开重大行情节点（如美联储决议、CPI、非农数据发布前后）不重仓开单。<br>4、仅通过OKX官方App/网页操作，拒绝任何代炒、喊单群、链接投资。<br>5、合约杠杆放大收益的同时等倍放大风险，本金可能全部损失，仅用闲余资金参与。</li>
+      </ol>
+      <p class="note">⚠️免责声明：加密货币衍生品无传统监管，波动剧烈且无涨跌停保护。本教程仅作平台操作逻辑说明，不构成投资建议，交易风险自担。</p>
+    </section>
+	
+    <footer class="footer">
+	      <a href="index.html" class="btn">← 返回首页</a>
+    </footer>
+  </main>
+</body>
+</html>
