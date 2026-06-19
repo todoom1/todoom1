@@ -1,4 +1,5 @@
 const apps = [
+{id: 'tyzb', img: './png/tyzb.jpg', name: '赛事直播', url: 'https://damizhibo.com/', cat: 'gemes'},
 {id: 'pg', img: './svg/pg.svg', name: 'PG模拟器', url: './tea1.html', cat: 'gemes'},
 {id: 'pp', img: './svg/pp.svg', name: 'PP模拟器', url: './pptest.html', cat: 'gemes'},
 {id: 'hackmnq', img: './svg/pg.svg', name: 'HS模拟器', url: './hacksaw.html', cat: 'gemes'},
@@ -14,7 +15,6 @@ const apps = [
 {id: 'ka', img: './png/nullb.png', name: 'KA模拟器', url: 'https://www.kaga88.com/', cat: 'gemes'},
 {id: 'gr', img: './svg/gr.svg', name: 'GR模拟器', url: 'https://grdemoweb.richgaming.net/', cat: 'gemes'},
 {id: 'bjl', img: './png/qt.png', name: '百家乐模拟器', url: 'https://www.ab8888.games:8888/?loginType=2&amp;trial=true&amp;language=zh_CN', cat: 'gemes'},
-{id: 'tymn', img: './png/fb.png', name: '体育模拟器', url: 'https://test.f66b88sport.com/h5/index.html#/', cat: 'gemes'},
 {id: 'cpmn', img: './png/cp.png', name: '彩票模拟器', url: 'https://pc.obcp.live/redirect.html', cat: 'gemes'},
 {id: 'oy', img: './svg/oy.svg', name: '欧易', url: 'https://www.vmutkhamuut.com/join/40221549', cat: 'bths'},
 {id: 'ba', img: './svg/ba.svg', name: '币安', url: 'https://www.maxweb.academy/referral/earn-together/refer-in-hotsummer/claim?hl=zh-CN&ref=GRO_20338_SI463&utm_source=default', cat: 'bths'},
