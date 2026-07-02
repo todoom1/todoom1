@@ -19,7 +19,7 @@ const apps = [
 {id: 'oy', img: './svg/oy.svg', name: '欧易', url: 'https://www.vmutkhamuut.com/join/40221549', cat: 'bths'},
 {id: 'ba', img: './svg/ba.svg', name: '币安', url: 'https://www.maxweb.academy/referral/earn-together/refer-in-hotsummer/claim?hl=zh-CN&ref=GRO_20338_SI463&utm_source=default', cat: 'bths'},
 {id: 'xnb', img: './png/npc.png', name: '虚拟币入门', url: './xnb.html', cat: 'bths'},
-{id: 'ggy', img: './png/ggy.png', name: '脉动vpn(狗云)', url: 'https://maidongyun.com/#/register?code=V5fllz2y', cat: 'tools'},
+{id: 'ggy', img: './png/ggy.png', name: '脉动vpn(狗云)', url: 'https://maidongvpn.com/#/register?code=V5fllz2y', cat: 'tools'},
 {id: 'dkd', img: './png/dkd.png', name: '杜卡迪vpn', url: 'https://www.dukadi.xyz/#/register?code=ZrNq0rDZ', cat: 'tools'},
 {id: 'dm', img: './png/vpn.png', name: '大麦VPN', url: 'https://666.damai222.cc/#/register?code=JGQT6iHz', cat: 'tools'},
 {id: 'jryw', img: './png/nullb.png', name: '今日要闻', url: 'https://60s.lylme.com/', cat: 'tools'},
