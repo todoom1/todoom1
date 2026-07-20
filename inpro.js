@@ -1,5 +1,4 @@
 const apps = [
-{id: 'tyzb', img: './png/tyzb.jpg', name: '赛事直播', url: 'https://damizhibo.com/', cat: 'gemes'},
 {id: 'pg', img: './svg/pg.svg', name: 'PG模拟器', url: './tea1.html', cat: 'gemes'},
 {id: 'pp', img: './svg/pp.svg', name: 'PP模拟器', url: './pptest.html', cat: 'gemes'},
 {id: 'hackmnq', img: './svg/pg.svg', name: 'HS模拟器', url: './hacksaw.html', cat: 'gemes'},
@@ -18,7 +17,7 @@ const apps = [
 {id: 'cpmn', img: './png/cp.png', name: '彩票模拟器', url: 'https://pc.obcp.live/redirect.html', cat: 'gemes'},
 {id: 'oy', img: './svg/oy.svg', name: '欧易', url: 'https://www.vmutkhamuut.com/join/40221549', cat: 'bths'},
 {id: 'ba', img: './svg/ba.svg', name: '币安', url: 'https://www.bsmkweb.cc/register?ref=H67DQWYZ', cat: 'bths'},
-{id: 'xnb', img: './png/npc.png', name: '虚拟币入门', url: './xnb.html', cat: 'bths'},
+{id: 'xnb', img: './svg/btc.svg', name: '虚拟币入门', url: './xnb.html', cat: 'bths'},
 {id: 'ggy', img: './png/ggy.png', name: '脉动vpn(狗云)', url: 'https://maidongvpn.com/#/register?code=V5fllz2y', cat: 'tools'},
 {id: 'dkd', img: './png/dkd.png', name: '杜卡迪vpn', url: 'https://www.dukadi.xyz/#/register?code=ZrNq0rDZ', cat: 'tools'},
 {id: 'dm', img: './png/vpn.png', name: '大麦VPN', url: 'https://666.damai222.cc/#/register?code=JGQT6iHz', cat: 'tools'},
@@ -49,10 +48,7 @@ function renderApps() {
         li.id = app.id;
 
         li.innerHTML = `
-            <div class="app-icon">
-                <img src="${app.img}" alt="${app.name}">
-            </div>
-            <div class="app-name">${app.name}</div>
+            <div class="app-icon"><img src="${app.img}" alt="${app.name}"></div><div class="app-name">${app.name}</div>
         `;
         li.addEventListener('click', () => {
             window.open(app.url, '_blank', 'noopener,noreferrer');
@@ -62,7 +58,7 @@ function renderApps() {
     });
 }
 renderApps();
-document.getElementById("52").innerHTML="🔥PG模拟器大全";
+document.getElementById("52").innerHTML="PG模拟器";
 document.getElementById("54").innerHTML="虚拟币";
-document.getElementById("55").innerHTML="其他分享&VPN-打不开的网站请开VPN";
+document.getElementById("55").innerHTML="实用工具";
 document.getElementById("56").innerHTML="如遇本站功能无法正常使用，请点击下载VPN，即可突破网络封锁正常使用";
