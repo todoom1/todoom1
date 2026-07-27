@@ -1,6 +1,6 @@
 <html lang="zh"><head>
   <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-  <title>世界杯赛程</title>
+  <title>五大联赛赛程</title>
   <style>
     /* 基础重置与布局 */
     html, body {
@@ -67,26 +67,51 @@ border-radius: 10px;
       color: white;
       border-color: #007acc;
     }
-a {color: white; border: none; padding: 10px 20px; border-radius: 6px; cursor: pointer; background: #000000a8;text-decoration: none;font-size: 20px;
+button {color: black; border: none; padding: 10px 20px; border-radius: 12px; cursor: pointer; text-decoration: none;font-size: 20px;
 }
+a{
+text-decoration: none;}
   </style>
 
 <myflashextensionid id="knfhpjhiamcofffhagflplclogcmcjai"></myflashextensionid>
 </head>
 <body>
   <div class="container">
-    <iframe id="iframeid" src="https://cn.bing.com/sportsdetails?q=%E4%B8%96%E7%95%8C%E6%9D%AF%E8%B5%9B%E7%A8%8B&sport=Soccer&scenario=League&TimezoneId=China%20Standard%20Time&IANATimezoneId=Asia/Shanghai&ISOTimezoneKey=CST&league=Soccer_InternationalWorldCup&intent=Schedule&seasonyear=2026&segment=sports&isl2=true&fromhere=1065280020&form=ANNTH1&" frameborder="0" scrolling="yes" data-ruffle-polyfilled="">
+    <iframe id="iframeid" src="https://cn.bing.com/sportsdetails?q=Premier%20League&sport=Soccer&scenario=League&TimezoneId=China%20Standard%20Time&IANATimezoneId=Asia/Shanghai&ISOTimezoneKey=CST&league=Soccer_EnglandPremierLeague&intent=Generic&seasonyear=2026&segment=sports&isl2=true&fromhere=1065382260&form=ANSPH1&" frameborder="0" scrolling="yes" data-ruffle-polyfilled="">
     </iframe>
-  </div>  <button class="fixed-button" onclick="showIosGuide()" onclick="window.location.href='https://damizhibo.com/'">🔥赛事直播</button>
+  </div>  <button class="fixed-button" onclick="showIosGuide()" onclick="window.location.href='https://damizhibo.com/'">🔥切换联赛</button>
  
   <div id="ios-guide-modal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.6); z-index: 9999; justify-content: center; align-items: center;">
     <div style="background: white; padding: 25px; border-radius: 12px; text-align: center; max-width: 80%; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">
-        <a onclick="window.open('https://damizhibo.com/')">🔥进入赛事直播</a><br><br>
-        <a href="./index.html">返回首页</a><br><br>
-        <a onclick="closeIosGuide()">关闭窗口</a>
+    <button class="nav-btn active" data-url="https://cn.bing.com/sportsdetails?q=Premier%20League&sport=Soccer&scenario=League&TimezoneId=China%20Standard%20Time&IANATimezoneId=Asia/Shanghai&ISOTimezoneKey=CST&league=Soccer_EnglandPremierLeague&intent=Generic&seasonyear=2026&segment=sports&isl2=true&fromhere=1065382260&form=ANSPH1&" onclick="closeIosGuide()">英超（Premier League）</button><br><br>
+    <button class="nav-btn" data-url="https://cn.bing.com/sportsdetails?q=La%20Liga&sport=Soccer&scenario=League&TimezoneId=China%20Standard%20Time&IANATimezoneId=Asia/Shanghai&ISOTimezoneKey=CST&league=Soccer_SpainLaLiga&intent=Generic&seasonyear=2026&segment=sports&isl2=true&fromhere=1065373530&form=SSQNT1&" onclick="closeIosGuide()">
+西甲（La Liga）</button><br><br>
+    <button class="nav-btn" data-url="https://cn.bing.com/sportsdetails?q=Serie%20A&sport=Soccer&scenario=League&TimezoneId=China%20Standard%20Time&IANATimezoneId=Asia/Shanghai&ISOTimezoneKey=CST&league=Soccer_ItalySerieA&intent=Generic&seasonyear=2026&segment=sports&isl2=true&fromhere=1065383550&form=SSQNT1&" onclick="closeIosGuide()">意甲（Serie A）</button><br><br>
+    <button class="nav-btn" data-url="https://cn.bing.com/sportsdetails?q=Bundesliga&sport=Soccer&scenario=League&TimezoneId=China%20Standard%20Time&IANATimezoneId=Asia/Shanghai&ISOTimezoneKey=CST&league=Soccer_GermanyBundesliga&intent=Generic&seasonyear=2026&segment=sports&isl2=true&fromhere=1065392310&form=SSQNT1&" onclick="closeIosGuide()">德甲（Bundesliga）</button><br><br>
+    <button class="nav-btn" data-url="https://cn.bing.com/sportsdetails?q=Ligue%201&sport=Soccer&scenario=League&TimezoneId=China%20Standard%20Time&IANATimezoneId=Asia/Shanghai&ISOTimezoneKey=CST&league=Soccer_FranceLigue1&intent=Generic&seasonyear=2026&segment=sports&isl2=true&fromhere=1065382245&form=SSQNT1&" onclick="closeIosGuide()">法甲（Ligue 1）</button><br><br>
+	<button><a href="https://damizhibo.com/">🔥进入赛事直播</a></button><br><br>
+	<button><a href="./index.html">返回首页</a></button><br><br>
+	<button onclick="closeIosGuide()">关闭窗口</button>
     </div>
 </div>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const buttons = document.querySelectorAll('.nav-btn');
+      const iframe = document.getElementById('iframeid');
 
+      buttons.forEach(btn => {
+        btn.addEventListener('click', () => {
+          // 1. 切换激活状态
+          buttons.forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+
+          // 2. 更新 iframe 地址
+          const targetUrl = btn.getAttribute('data-url');
+          iframe.src = targetUrl;
+        });
+      });
+    });
+  </script>
 <script>
     function showIosGuide() {
         document.getElementById('ios-guide-modal').style.display = 'flex';
